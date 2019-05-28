@@ -1,0 +1,73 @@
+<template>
+  <section>
+
+        <div class="cv">
+          <img class="cvImage" src="~/assets/pictures/delia_cv.png">
+        </div>
+
+  </section>
+</template>
+
+<script>
+
+export default {
+
+}
+
+</script>
+
+<style>
+
+.cvImage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100vh;
+}
+
+.cv {
+  max-width: 100%;
+  min-height: 100vh;
+}
+
+@media screen and (min-width: 1600px) {
+
+}
+@media screen and (max-width: 880px) {
+  .wrapperCover {
+    max-width: 100%;
+    min-height: 100vh;
+  }
+  .cover {
+    max-width: 100%;
+    min-height: 100vh;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center top;
+  }
+  .solipartyMapucheText {
+    position: absolute;
+    left: 50%;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    margin-left: -45%;
+    margin-top: 2em;
+    width: 90%;
+  }
+}
+/* If height very low */
+@media screen and (max-height: 500px) {
+  .solipartyMapucheText {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    width: 90%;
+    max-height: 100%;
+  }
+}
+
+</style>
