@@ -108,7 +108,7 @@ export default {
   .titleTextTablet {
     width: 100%;
     text-align: center;
-    padding-top: 4em;
+    padding-top: 3em;
   }
   .pageTitleTablet {
     font-size: 50px;
@@ -127,7 +127,7 @@ export default {
   .titleTextTablet {
     width: 100%;
     text-align: center;
-    padding-top: 4em;
+    padding-top: 3em;
   }
   .pageTitleTablet {
     font-size: 40px;
@@ -147,7 +147,7 @@ export default {
   .titleTextTablet {
     width: 100%;
     text-align: center;
-    padding-top: 4em;
+    padding-top: 3em;
   }
   .pageTitleTablet {
     font-size: 35px;
@@ -166,7 +166,7 @@ export default {
   .titleTextTablet {
     width: 100%;
     text-align: center;
-    padding-top: 4em;
+    padding-top: 3em;
   }
   .pageTitleTablet {
     font-size: 25px;
