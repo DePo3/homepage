@@ -34,11 +34,7 @@ export default {
 p {
   white-space: pre-line;
 }
-.pageWrapper {
-  padding: 3em;
-  min-height: 100vh;
-  background-color: #f5f0ec;
-}
+
 .info {
   display: flex;
   flex-direction: row;
@@ -46,6 +42,6 @@ p {
   display: flex;
   justify-content: center; /* align horizontal */
   align-items: center; /* align vertical */
-  padding-top: 4em;
+  padding-top: 2em;
 }
 </style>

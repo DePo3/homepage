@@ -2,7 +2,7 @@
   <section>
     <div class="wrapperCover">
 
-      <div class="cover" :style="{ backgroundImage: 'url(' + require(`@/assets/pictures/DeliHireMe.jpg`) + ')' }">
+      <div class="coverFooter" :style="{ backgroundImage: 'url(' + require(`@/assets/pictures/DeliHireMe.jpg`) + ')' }">
         <!--<img class="djListe" src="~/assets/DJ_Liste_st.png">-->
         <a-button type="primary" size="large" class="hireButton" @click="showDrawer"><span class="hireButtonText">Hire me!</span></a-button>
         <a-drawer
@@ -98,7 +98,7 @@ export default {
   font-size: 50px;
   color: #1a234d;
 }
-.cover {
+.coverFooter {
   max-width: 100%;
   min-height: 100vh;
   -webkit-background-size: cover;
@@ -106,5 +106,16 @@ export default {
   -o-background-size: cover;
   background-size: cover;
   background-position: center top;
+}
+
+@media screen and (min-width: 1600px) {
+
+}
+@media screen and (max-width: 950px) {
+
+}
+/* If height very low */
+@media screen and (max-height: 500px) {
+  
 }
 </style>
