@@ -181,7 +181,7 @@ export default {
 @media screen and (max-width: 600px) {
   .hireButton {
     position: absolute;
-    left: 16em;
+    left: 18em;
   }
   .coverFooterTablet {
     display: block;
@@ -198,7 +198,7 @@ export default {
 @media screen and (max-width: 450px) {
   .hireButton {
     position: absolute;
-    left: 10em;
+    left: 15em;
   }
   .coverFooterTablet {
     display: block;

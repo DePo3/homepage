@@ -78,6 +78,7 @@ export default {
   padding-left: 15%;
   padding-right: 15%;
   padding-top: 2em;
+  padding-bottom: 2em;
   font-family: 'Kalam';
 }
 

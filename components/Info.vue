@@ -48,7 +48,7 @@ export default {
 <style>
 #previewResearchPaper {
   border-radius: 15px;
-  height: 25em;
+  height: 27.5em;
   margin: 1em;
   cursor: pointer;
 }
@@ -83,4 +83,6 @@ p {
   -moz-box-shadow: 3px -1px 10px 0px rgba(0,0,0,0.18);
   box-shadow: 3px -1px 10px 0px rgba(0,0,0,0.18);
 }
+
+
 </style>
