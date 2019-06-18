@@ -1,31 +1,32 @@
 <template>
   <section>
-    <div class="wrapperCover">
 
-      <div>
-        <div class="coverHeadDesktop" :style="{ backgroundImage: 'url(' + require(`@/assets/pictures/delia_cover.jpg`) + ')' }">
-          <!--<img class="djListe" src="~/assets/soliparty-logo1.png>-->
-          <div class="titleTextDesktop">
-            <h1 class="pageTitleDesktop" style="font-weight:400;">Hey, I am Delia Hallberg</h1>
-            <h2 class="pageSubTitleDesktop">Consultant // Researcher // Social Scientist // Tech Enthusiast</h2>
-            <p class="titleQuoteDesktop">Technology design is a reflection of social values and norms. We need multidisciplinary collaboration to create human-centric technologies fit for tomorrow's society based on human rights, solidarity and sustainability.</p>
-          </div>
+    <div>
+      <div class="coverHeadDesktop" :style="{ backgroundImage: 'url(' + require(`@/assets/pictures/delia_cover.jpg`) + ')' }">
+        <!--<img class="djListe" src="~/assets/soliparty-logo1.png>-->
+        <div class="titleTextDesktop">
+          <h1 class="pageTitleDesktop" style="font-weight:400;">Hey, I am Delia Hallberg</h1>
+          <h2 class="pageSubTitleDesktop">Consultant // Researcher // Social Scientist // Tech Enthusiast</h2>
+          <p class="titleQuoteDesktop">Technology design is a reflection of social values and norms. We need multidisciplinary collaboration to create human-centric technologies fit for tomorrow's society based on human rights, solidarity and sustainability.</p>
         </div>
-
-        <div class="coverHeadTablet" :style="{ backgroundImage: 'url(' + require(`@/assets/pictures/DeliHeaderpicTabletWide.jpg`) + ')' }">
-          <!--<img class="djListe" src="~/assets/soliparty-logo1.png>-->
-        </div>
-
-        <div class="coverHeadQuote">
-          <div class="titleTextTablet">
-            <h1 class="pageTitleTablet" style="font-weight:400;">Hey, I am Delia Hallberg</h1>
-            <h2 class="pageSubTitleTablet">Consultant // Researcher // Social Scientist // Tech Enthusiast</h2>
-          </div>
-        </div>
-
       </div>
 
+      <div class="coverHeadTablet" :style="{ backgroundImage: 'url(' + require(`@/assets/pictures/DeliHeaderpicTabletWide.jpg`) + ')' }">
+        <!--<img class="djListe" src="~/assets/soliparty-logo1.png>-->
+      </div>
+
+      <div class="coverHeadQuote">
+        <div class="titleTextTablet">
+          <h1 class="pageTitleTablet" style="font-weight:400;">Hey, I am Delia Hallberg</h1>
+          <h2 class="pageSubTitleTablet">Consultant // Researcher // Social Scientist // Tech Enthusiast</h2>
+        </div>
+      </div>
     </div>
+
+    <div class="coverHeadQuote">
+      <p class="titleQuoteDesktop" style="font-weight:400;text-align:center;">Technology design is a reflection of social values and norms. We need multidisciplinary collaboration to create human-centric technologies fit for tomorrow's society based on human rights, solidarity and sustainability.</p>
+    </div>
+
   </section>
 </template>
 
@@ -43,8 +44,6 @@ export default {
 
 <style>
 @import url('https://fonts.googleapis.com/css?family=Kalam&display=swap');
-
-
 .coverHeadDesktop {
   max-width: 100%;
   min-height: 100vh;
@@ -60,8 +59,8 @@ export default {
 .coverHeadQuote {
   display: none;
 }
-
 .titleTextDesktop {
+  display: inline-block;
   width: 50%;
   text-align: center;
   margin-left: 5%;
@@ -82,9 +81,6 @@ export default {
   font-family: 'Kalam';
 }
 
-@media screen and (min-width: 1600px) {
-
-}
 @media screen and (max-width: 950px) {
   .coverHeadDesktop {
     display: none;
@@ -104,8 +100,8 @@ export default {
     display: block;
     min-height: 25vh;
   }
-
   .titleTextTablet {
+    display: inline-block;
     width: 100%;
     text-align: center;
     padding-top: 3em;
@@ -125,9 +121,10 @@ export default {
     display: none;
   }
   .titleTextTablet {
+    display: inline-block;
     width: 100%;
     text-align: center;
-    padding-top: 3em;
+    padding-top: 4em;
   }
   .pageTitleTablet {
     font-size: 40px;
@@ -145,9 +142,10 @@ export default {
     display: none;
   }
   .titleTextTablet {
+    display: inline-block;
     width: 100%;
     text-align: center;
-    padding-top: 3em;
+    padding-top: 4em;
   }
   .pageTitleTablet {
     font-size: 35px;
@@ -164,12 +162,13 @@ export default {
     display: none;
   }
   .titleTextTablet {
+    display: inline-block;
     width: 100%;
     text-align: center;
-    padding-top: 3em;
+    padding-top: 4em;
   }
   .pageTitleTablet {
-    font-size: 25px;
+    font-size: 30px;
   }
   .pageSubTitleTablet {
     padding-top: 0em;
@@ -177,8 +176,6 @@ export default {
     margin: 0;
   }
 }
-
-
 
 /* If height very low */
 @media screen and (max-height: 600px) {

@@ -1,24 +1,22 @@
 <template>
-  <section class="container">
-    <section class="container-wrapper">
-      <Cover/>
-      <Info/>
-      <CV/>
-      <Footer/>
-    </section>
+  <section class="container-wrapper">
+    <Cover/>
+    <Cv/>
+    <Info/>
+    <Footer/>
   </section>
 </template>
 
 <script>
 import Cover from '../components/Cover'
-import CV from '../components/CV'
+import Cv from '../components/Cv'
 import Info from '../components/Info'
 import Footer from '../components/Footer'
 
 export default {
   components: {
     Cover,
-    CV,
+    Cv,
     Info,
     Footer
   }
@@ -45,13 +43,5 @@ h4 {
 h5 {
   color: #1a234d;
 }
-.container {
-  width: 100vw;
-  max-width: 100%;
-  margin: 0 auto;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  overflow-x: hidden;
-}
+
 </style>

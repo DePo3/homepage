@@ -19,25 +19,23 @@ export default {
 <style>
 
 .cvImage {
+  padding-left: 2em;
+  padding-right: 2em;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  height: 100vh;
+  margin: 0 auto;
+  max-height: 100%;
+  max-width: 100%;
 }
 
 .cv {
   max-width: 100%;
-  min-height: 100vh;
 }
 
 @media screen and (min-width: 1600px) {
 
 }
 @media screen and (max-width: 880px) {
-  .wrapperCover {
-    max-width: 100%;
-    min-height: 100vh;
-  }
+  
   .cover {
     max-width: 100%;
     min-height: 100vh;
