@@ -150,7 +150,7 @@ export default {
   position: absolute;
   width: 25px;
   height: 25px;
-  right: -17px;
+  right: -13px;
   background-color: white;
   border: 4px solid #e5de5b;
   top: 15px;
@@ -198,7 +198,7 @@ export default {
 
 /* Fix the circle for containers on the right side */
 .right::after {
-  left: -16px;
+  left: -13px;
 }
 
 /* The actual content */
@@ -233,7 +233,7 @@ export default {
 
 /* Make sure all circles are at the same spot */
   .left::after, .right::after {
-    left: 15px;
+    left: 18px;
   }
 
 /* Make all right containers behave like the left ones */
